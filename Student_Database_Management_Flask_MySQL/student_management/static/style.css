@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f6fc;
+    font-family: 'Inter', sans-serif;
+    color: #1e293b;
+    margin: 0;
+}
+
+.navbar {
+    background: #142b55;
+    padding: 18px 0;
+}
+
+.brand {
+    color: white;
+    font-size: 21px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.brand:hover {
+    color: white;
+}
+
+.profile {
+    background: #e0eaff;
+    color: #1e40af;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.page-title {
+    font-size: 27px;
+    font-weight: 800;
+    color: #142b55;
+}
+
+.subtitle {
+    color: #8290a5;
+    font-size: 14px;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid #edf0f7;
+    box-shadow: 0 5px 20px rgba(30, 50, 90, .04);
+}
+
+.stat-card p {
+    color: #8290a5;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.stat-card h2 {
+    color: #142b55;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.stat-icon {
+    background: #eaf0ff;
+    color: #2563eb;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 21px;
+}
+
+.main-card {
+    background: white;
+    border-radius: 16px;
+    padding: 28px;
+    border: 1px solid #edf0f7;
+    box-shadow: 0 5px 25px rgba(30, 50, 90, .04);
+}
+
+.section-title {
+    font-size: 19px;
+    font-weight: 800;
+    color: #142b55;
+}
+
+.btn-primary {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn {
+    border-radius: 9px;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #e1e7f0;
+    border-radius: 9px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px #2563eb15;
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.table thead th {
+    background: #f7f9fe;
+    color: #64748b;
+    font-size: 12px;
+    padding: 16px;
+    white-space: nowrap;
+}
+
+.table tbody td {
+    padding: 17px 16px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.student-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #e8efff;
+    color: #2563eb;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.dept-badge {
+    background: #eaf1ff;
+    color: #2563eb;
+    padding: 7px 11px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.form-card {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 22px;
+    }
+
+    .main-card {
+        padding: 18px;
+    }
+
+    .stat-card {
+        padding: 18px;
+    }
+}

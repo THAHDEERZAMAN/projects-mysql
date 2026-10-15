@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block content %}<div class="form-wrap"><a href="{{ url_for('index') }}" class="d-block mb-4 text-decoration-none">← Back to Dashboard</a><div class="card-ui"><h3 class="page-title">{{ 'Edit' if item else 'Add' }} Patient</h3>
+<p class="sub mb-4">Enter the patient details below</p><form method="post"><div class="row g-3"><div class="col-md-6"><label class="form-label">Full Name</label><input class="form-control" type="text" maxlength="120" name="name" value="{{ item.name if item else '' }}" required></div>
+<div class="col-md-6"><label class="form-label">Age</label><input class="form-control" type="number" min="0" name="age" value="{{ item.age if item else '' }}" required></div>
+<div class="col-md-6"><label class="form-label">Phone Number</label><input class="form-control" type="text" maxlength="120" name="phone" value="{{ item.phone if item else '' }}" required></div>
+<div class="col-md-6"><label class="form-label">Medical Concern</label><input class="form-control" type="text" maxlength="120" name="condition_name" value="{{ item.condition_name if item else '' }}" required></div></div>
+<div class="mt-4"><button class="btn btn-primary">Save Patient</button><a href="/" class="btn btn-light border ms-2">Cancel</a></div></form></div></div>{% endblock %}

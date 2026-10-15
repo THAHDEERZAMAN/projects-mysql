@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root{--accent:#008f83;--ink:#182640;--muted:#8390a3}
+body{background:#f3f6fb;font-family:Inter,Arial,sans-serif;color:var(--ink)}
+.navbar{background:#142440;padding:17px 0}.brand{color:#fff;font-size:20px;font-weight:800;text-decoration:none}
+.brand:hover{color:#fff}.page-title{font-weight:800;color:var(--ink)}.sub{color:var(--muted);font-size:14px}
+.card-ui{background:white;border:1px solid #e8edf5;border-radius:16px;box-shadow:0 5px 24px #1629430a;padding:25px}
+.metric{font-size:34px;font-weight:800;color:var(--ink)}.metric-icon{font-size:24px;color:var(--accent);background:#edf3fd;border-radius:12px;padding:12px}
+.btn-primary{background:var(--accent);border-color:var(--accent)}.btn-primary:hover{background:var(--ink);border-color:var(--ink)}
+.btn{border-radius:9px;font-size:13px;font-weight:600;padding:9px 13px}
+.table thead th{background:#f6f8fc;color:#6b7890;font-size:12px;padding:14px;white-space:nowrap}
+.table tbody td{padding:14px;vertical-align:middle;font-size:13px}.form-control,.form-select{border-radius:9px;padding:11px;border:1px solid #dfe6f1}
+.form-label{font-size:13px;font-weight:700}.pill{background:#eef2fc;color:var(--accent);padding:6px 10px;border-radius:25px;font-size:11px;font-weight:700}
+.form-wrap{max-width:720px;margin:auto}@media(max-width:768px){.card-ui{padding:15px}.page-title{font-size:24px}}

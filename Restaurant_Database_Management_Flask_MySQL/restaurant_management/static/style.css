@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+body { background:#f5f6fa; font-family:'Inter',sans-serif; color:#253047; }
+.navbar { background:#17233d; padding:18px 0; }
+.brand { color:white; font-weight:800; font-size:22px; text-decoration:none; }
+.brand:hover { color:white; }
+.page-title { font-weight:800; color:#17233d; }
+.subtitle { color:#8490a4; font-size:14px; }
+.stat-card,.main-card { background:white; border:1px solid #e9edf4; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,.035); }
+.stat-card { padding:25px; }
+.stat-card h2 { font-weight:800; color:#17233d; }
+.stat-card p { color:#8490a4; font-size:13px; }
+.stat-icon { background:#fff1e5; color:#e97929; border-radius:12px; padding:12px; font-size:22px; }
+.main-card { padding:25px; }
+.section-title { font-size:19px; font-weight:800; }
+.btn-primary { background:#e97929; border-color:#e97929; }
+.btn-primary:hover { background:#d86419; border-color:#d86419; }
+.btn { border-radius:9px; font-weight:600; font-size:13px; padding:9px 14px; }
+.table thead th { background:#f8f9fc; font-size:12px; color:#738098; padding:15px; white-space:nowrap; }
+.table tbody td { padding:15px; vertical-align:middle; font-size:13px; }
+.category-badge { background:#fff1e5; color:#dc7225; border-radius:20px; padding:7px 12px; font-size:11px; font-weight:700; }
+.form-control,.form-select { padding:12px; border-radius:9px; border:1px solid #e1e6ef; font-size:14px; }
+.form-label { font-size:13px; font-weight:700; }
+.form-card { max-width:700px; margin:auto; }
+@media(max-width:768px) { .main-card {padding:17px;} .page-title {font-size:23px;} }

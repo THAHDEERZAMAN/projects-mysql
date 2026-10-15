@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block content %}<div class="form-wrap"><a href="{{ url_for('index') }}" class="d-block mb-4 text-decoration-none">← Back to Dashboard</a><div class="card-ui"><h3 class="page-title">{{ 'Edit' if item else 'Add' }} Book</h3>
+<p class="sub mb-4">Enter the book details below</p><form method="post"><div class="row g-3"><div class="col-md-6"><label class="form-label">Book Title</label><input class="form-control" type="text" maxlength="120" name="title" value="{{ item.title if item else '' }}" required></div>
+<div class="col-md-6"><label class="form-label">Author</label><input class="form-control" type="text" maxlength="120" name="author" value="{{ item.author if item else '' }}" required></div>
+<div class="col-md-6"><label class="form-label">ISBN</label><input class="form-control" type="text" maxlength="120" name="isbn" value="{{ item.isbn if item else '' }}" required></div>
+<div class="col-md-6"><label class="form-label">Available Copies</label><input class="form-control" type="number" min="0" name="copies" value="{{ item.copies if item else '' }}" required></div></div>
+<div class="mt-4"><button class="btn btn-primary">Save Book</button><a href="/" class="btn btn-light border ms-2">Cancel</a></div></form></div></div>{% endblock %}
